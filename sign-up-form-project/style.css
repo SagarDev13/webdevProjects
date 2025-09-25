@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'nose-bold';
+    src: url('Norse-Bold.otf');
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    background-image: url(image1.png.avif);
+    background-repeat: no-repeat;     /* prevent repeating */
+    background-size: cover;          /* make it cover the whole area */
+}
+
+.box {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    position: relative;
+}
+
+img {
+    height: 70px;
+    width: 60px;
+}
+
+.odin {
+    font-family: 'Nose-Bold', Times, serif;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 17px;
+    flex: 1;
+    width: 100vh;
+    padding-left: 25px;
+    padding-top: 80px;
+}
+
+.form {
+    display: flex;
+    flex: 1;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 15px;
+    gap: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.leftform {
+    padding-left: 30px;
+}
+.rightform {
+    padding-top: 60px;
+}
+
+label {
+    display: block;
+    margin: 3px;
+    font-size: 12px;
+}
+
+input {
+    border-radius: 3px;
+}
+
+.response {
+    flex: 1;
+    width: 100%;
+    gap: 20px;
+}
+
+button {
+    margin-top: 30px;
+      margin-left: 30px;
+      background-color: #28a745; /* green */
+      color: white;             /* white text */
+      padding: 10px 20px;       /* top-bottom | left-right */
+      border: none;             /* remove border */
+      border-radius: 6px;       /* rounded corners */
+      font-size: 16px;
+      cursor: pointer;          /* hand cursor */
+      transition: 0.3s;         /* smooth hover effect */
+ }
+
+ .response p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+ }
