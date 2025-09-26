@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="text">My Library</div>
+        <button class="add-book-btn">+ Add New Book</button>
+    </div>
+    <dialog>
+        <div>
+            <form method="dialog">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div>
+                <label for="pages">Pages:</label>
+                <input type="number" id="pages" name="pages" required>
+            </div>
+            <div>
+                <label for="read">Read:</label>
+                <input type="checkbox" id="read" name="read">
+            </div>
+        </form>
+        </div>
+        <div class="buttons">
+            <button class="dialog-btn">Add Book</button>
+            <button class="dialog-btn">Cancel</button>
+        </div>
+    </dialog>
+</body>
+</html>
